@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Haz clic en el boton para ordenar el array</p>
+
+<button onclick="myFunction()">Presionar</button>
+
+<p id="demo"></p>
+
+<script>
+var persona = ["Estefania", " Daniel",  " Antonio", " Carlos"];
+document.getElementById("demo").innerHTML = persona;
+
+function myFunction() {
+  persona.sort();
+  document.getElementById("demo").innerHTML = persona;
+}
+</script>
+
+</body>
+</html>

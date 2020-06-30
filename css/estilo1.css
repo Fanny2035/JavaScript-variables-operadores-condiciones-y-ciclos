@@ -1,0 +1,41 @@
+body{
+	background: url(https://i.pinimg.com/originals/8b/19/d2/8b19d278350c5d37ee192a589b8f099a.jpg) no-repeat;
+	background-size: cover;
+	min-height: 100%;
+}
+h1{
+	text-align: center;
+	font-size: 2.5rem;
+}
+.contenedor{
+		width:600px;
+		height: 500px;
+		border:solid 1px #FF00FF;
+		padding:10px;
+		margin:10px auto;
+		text-align:center;
+}
+.menor{
+	color: #f3c623;
+	background-color: #10375c;
+	margin-top: 10px;
+	width: 300px;
+	height: 100px;
+	font-family: cursive;
+	text-align: center;
+	font-size: 1.5rem;
+
+
+}
+.mayor{
+	color: #10375c;
+	background-color: #f3c623;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-family: cursive;
+	font-size: 1.5rem;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Haz clic en el boton para eliminar el ultimo elemento del array.</p>
+
+<button onclick="myFunction()">Presionar</button>
+
+<p id="demo"></p>
+
+<script>
+var persona = ["Estefania", " Daniel", " Valeria", " Antonio", " Carlos"];
+document.getElementById("demo").innerHTML = persona;
+
+function myFunction() {
+  persona.pop();
+  document.getElementById("demo").innerHTML = persona;
+}
+</script>
+
+</body>
+</html>

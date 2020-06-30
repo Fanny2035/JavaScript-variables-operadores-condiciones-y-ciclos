@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Haz clic en el boton para añadir un nuevo elemento en el final del array.</p>
+
+<button onclick="myFunction()">Presionar</button>
+
+<p id="demo"></p>
+
+<script>
+var persona = ["Estefania", " Daniel", " Valeria", " Antonio", " Carlos"];
+document.getElementById("demo").innerHTML = persona;
+
+function myFunction() {
+  persona.push(" Esteban");
+  document.getElementById("demo").innerHTML = persona;
+}
+</script>
+
+</body>
+</html>
